@@ -1,4 +1,0 @@
-[01m[K/home/studio3s/ROS2WS/Sick-Nav350-ros2/src/nav350_Hardware/src/drivers/nav350/sicknav350/SickNAV350Message.cc:[m[K In member function ‘[01m[Kvirtual void SickToolbox::SickNav350Message::ParseMessage(const uint8_t*)[m[K’:
-[01m[K/home/studio3s/ROS2WS/Sick-Nav350-ros2/src/nav350_Hardware/src/drivers/nav350/sicknav350/SickNAV350Message.cc:114:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage_buffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-  114 |   void SickNav350Message::ParseMessage( [01;35m[Kconst uint8_t * const message_buffer[m[K )
-      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K

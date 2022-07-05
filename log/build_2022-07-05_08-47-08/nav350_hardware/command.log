@@ -1,2 +1,0 @@
-Invoking command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4
-Invoked command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4
