@@ -1,0 +1,4 @@
+[ 66%] Built target nav350_hardware_lib
+[35m[1mScanning dependencies of target nav350_Hardware[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/nav350_Hardware.dir/src/nav350_Hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX executable nav350_Hardware[0m

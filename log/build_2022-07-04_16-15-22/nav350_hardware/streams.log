@@ -1,0 +1,47 @@
+[0.026s] Invoking command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4
+[0.137s] [ 66%] Built target nav350_hardware_lib
+[0.155s] [35m[1mScanning dependencies of target nav350_Hardware[0m
+[0.214s] [ 83%] [32mBuilding CXX object CMakeFiles/nav350_Hardware.dir/src/nav350_Hardware.cpp.o[0m
+[9.176s] [100%] [32m[1mLinking CXX executable nav350_Hardware[0m
+[9.616s] [100%] Built target nav350_Hardware
+[9.632s] Invoked command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4
+[9.688s] Invoking command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware
+[9.700s] -- Install configuration: ""
+[9.701s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src
+[9.701s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers
+[9.702s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350
+[9.702s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350
+[9.702s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350/SickNAV350BufferMonitor.cc
+[9.702s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350/SickNAV350.cc
+[9.703s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350/SickNAV350Message.cc
+[9.703s] -- Installing: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/nav350_Hardware.cpp
+[9.703s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch
+[9.703s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch/sicknav350.launch.xml
+[9.703s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch/nav350.launch.xml
+[9.703s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch/sicknav350.launch.py
+[9.704s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers
+[9.704s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350
+[9.704s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350
+[9.704s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350/SickNAV350BufferMonitor.cc
+[9.704s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350/SickNAV350.cc
+[9.705s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350/SickNAV350Message.cc
+[9.705s] -- Installing: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/lib/nav350_hardware/nav350_Hardware
+[9.706s] -- Set runtime path of "/home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/lib/nav350_hardware/nav350_Hardware" to ""
+[9.706s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/ament_index/resource_index/package_run_dependencies/nav350_hardware
+[9.707s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/ament_index/resource_index/parent_prefix_path/nav350_hardware
+[9.707s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/ament_prefix_path.sh
+[9.707s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/ament_prefix_path.dsv
+[9.707s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/path.sh
+[9.707s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/path.dsv
+[9.708s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.bash
+[9.708s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.sh
+[9.708s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.zsh
+[9.708s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.dsv
+[9.708s] -- Installing: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/package.dsv
+[9.708s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/ament_index/resource_index/packages/nav350_hardware
+[9.708s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.709s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.709s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/nav350_hardwareConfig.cmake
+[9.709s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/nav350_hardwareConfig-version.cmake
+[9.709s] -- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/package.xml
+[9.711s] Invoked command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware

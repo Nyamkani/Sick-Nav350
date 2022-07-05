@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.001523] (nav350_hardware) JobQueued: {'identifier': 'nav350_hardware', 'dependencies': OrderedDict()}
+[0.001634] (nav350_hardware) JobStarted: {'identifier': 'nav350_hardware'}
+[0.067382] (nav350_hardware) JobProgress: {'identifier': 'nav350_hardware', 'progress': 'cmake'}
+[0.069600] (nav350_hardware) JobProgress: {'identifier': 'nav350_hardware', 'progress': 'build'}
+[0.071005] (nav350_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware', '--', '-j4', '-l4'], 'cwd': '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'studio3s'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1536'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/studio3s'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/src'), ('TERM_PROGRAM_VERSION', '1.68.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1357'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9850'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'studio3s'), ('JOURNAL_STREAM', '8:45493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'studio3s'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/studio3s/.local/bin:/opt/ros/galactic/bin:/home/studio3s/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/studio3s-500R5M-500R5W-501R5M:@/tmp/.ICE-unix/1575,unix/studio3s-500R5M-500R5W-501R5M:/tmp/.ICE-unix/1575'), ('INVOCATION_ID', 'c59dba84bdc04eb395ca8b572e08044e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-374716651d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware:/opt/ros/galactic')]), 'shell': False}
+[0.099885] (-) TimerEvent: {}
+[0.192318] (nav350_hardware) StdoutLine: {'line': b'[ 66%] Built target nav350_hardware_lib\n'}
+[0.200117] (-) TimerEvent: {}
+[0.225783] (nav350_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav350_Hardware\x1b[0m\n'}
+[0.301181] (-) TimerEvent: {}
+[0.370480] (nav350_hardware) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/nav350_Hardware.dir/src/nav350_Hardware.cpp.o\x1b[0m\n'}
+[0.401283] (-) TimerEvent: {}
+[0.501608] (-) TimerEvent: {}
+[0.601983] (-) TimerEvent: {}
+[0.702596] (-) TimerEvent: {}
+[0.802953] (-) TimerEvent: {}
+[0.903403] (-) TimerEvent: {}
+[1.004581] (-) TimerEvent: {}
+[1.104977] (-) TimerEvent: {}
+[1.205327] (-) TimerEvent: {}
+[1.305730] (-) TimerEvent: {}
+[1.406235] (-) TimerEvent: {}
+[1.506641] (-) TimerEvent: {}
+[1.607051] (-) TimerEvent: {}
+[1.707463] (-) TimerEvent: {}
+[1.808209] (-) TimerEvent: {}
+[1.908606] (-) TimerEvent: {}
+[2.008992] (-) TimerEvent: {}
+[2.109648] (-) TimerEvent: {}
+[2.211213] (-) TimerEvent: {}
+[2.311635] (-) TimerEvent: {}
+[2.412269] (-) TimerEvent: {}
+[2.512654] (-) TimerEvent: {}
+[2.613023] (-) TimerEvent: {}
+[2.713405] (-) TimerEvent: {}
+[2.813748] (-) TimerEvent: {}
+[2.914074] (-) TimerEvent: {}
+[3.014598] (-) TimerEvent: {}
+[3.115436] (-) TimerEvent: {}
+[3.216002] (-) TimerEvent: {}
+[3.316516] (-) TimerEvent: {}
+[3.416853] (-) TimerEvent: {}
+[3.517249] (-) TimerEvent: {}
+[3.617646] (-) TimerEvent: {}
+[3.718190] (-) TimerEvent: {}
+[3.819239] (-) TimerEvent: {}
+[3.924979] (-) TimerEvent: {}
+[4.025361] (-) TimerEvent: {}
+[4.125786] (-) TimerEvent: {}
+[4.226272] (-) TimerEvent: {}
+[4.326658] (-) TimerEvent: {}
+[4.427190] (-) TimerEvent: {}
+[4.527605] (-) TimerEvent: {}
+[4.627997] (-) TimerEvent: {}
+[4.728324] (-) TimerEvent: {}
+[4.828727] (-) TimerEvent: {}
+[4.929116] (-) TimerEvent: {}
+[5.029476] (-) TimerEvent: {}
+[5.129886] (-) TimerEvent: {}
+[5.230299] (-) TimerEvent: {}
+[5.330696] (-) TimerEvent: {}
+[5.431112] (-) TimerEvent: {}
+[5.531490] (-) TimerEvent: {}
+[5.631827] (-) TimerEvent: {}
+[5.732165] (-) TimerEvent: {}
+[5.832587] (-) TimerEvent: {}
+[5.933104] (-) TimerEvent: {}
+[6.033470] (-) TimerEvent: {}
+[6.133807] (-) TimerEvent: {}
+[6.234149] (-) TimerEvent: {}
+[6.334506] (-) TimerEvent: {}
+[6.434836] (-) TimerEvent: {}
+[6.535216] (-) TimerEvent: {}
+[6.635648] (-) TimerEvent: {}
+[6.735963] (-) TimerEvent: {}
+[6.836280] (-) TimerEvent: {}
+[6.936688] (-) TimerEvent: {}
+[7.037004] (-) TimerEvent: {}
+[7.137370] (-) TimerEvent: {}
+[7.237821] (-) TimerEvent: {}
+[7.338258] (-) TimerEvent: {}
+[7.438838] (-) TimerEvent: {}
+[7.540675] (-) TimerEvent: {}
+[7.641420] (-) TimerEvent: {}
+[7.741752] (-) TimerEvent: {}
+[7.842089] (-) TimerEvent: {}
+[7.942461] (-) TimerEvent: {}
+[8.042810] (-) TimerEvent: {}
+[8.143152] (-) TimerEvent: {}
+[8.245048] (-) TimerEvent: {}
+[8.345541] (-) TimerEvent: {}
+[8.445968] (-) TimerEvent: {}
+[8.546356] (-) TimerEvent: {}
+[8.646727] (-) TimerEvent: {}
+[8.747093] (-) TimerEvent: {}
+[8.847469] (-) TimerEvent: {}
+[8.947864] (-) TimerEvent: {}
+[9.048289] (-) TimerEvent: {}
+[9.148618] (-) TimerEvent: {}
+[9.249014] (-) TimerEvent: {}
+[9.349377] (-) TimerEvent: {}
+[9.449766] (-) TimerEvent: {}
+[9.550077] (-) TimerEvent: {}
+[9.650499] (-) TimerEvent: {}
+[9.751422] (-) TimerEvent: {}
+[9.851754] (-) TimerEvent: {}
+[9.952152] (-) TimerEvent: {}
+[10.052479] (-) TimerEvent: {}
+[10.152887] (-) TimerEvent: {}
+[10.253205] (-) TimerEvent: {}
+[10.353623] (-) TimerEvent: {}
+[10.454202] (-) TimerEvent: {}
+[10.554617] (-) TimerEvent: {}
+[10.654973] (-) TimerEvent: {}
+[10.755296] (-) TimerEvent: {}
+[10.855702] (-) TimerEvent: {}
+[10.956004] (-) TimerEvent: {}
+[11.056360] (-) TimerEvent: {}
+[11.156842] (-) TimerEvent: {}
+[11.257397] (-) TimerEvent: {}
+[11.357709] (-) TimerEvent: {}
+[11.458072] (-) TimerEvent: {}
+[11.558391] (-) TimerEvent: {}
+[11.658732] (-) TimerEvent: {}
+[11.759078] (-) TimerEvent: {}
+[11.859432] (-) TimerEvent: {}
+[11.960116] (-) TimerEvent: {}
+[12.055268] (nav350_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable nav350_Hardware\x1b[0m\n'}
+[12.060231] (-) TimerEvent: {}
+[12.160610] (-) TimerEvent: {}
+[12.260960] (-) TimerEvent: {}
+[12.361330] (-) TimerEvent: {}
+[12.461680] (-) TimerEvent: {}
+[12.562080] (-) TimerEvent: {}
+[12.610282] (nav350_hardware) StdoutLine: {'line': b'[100%] Built target nav350_Hardware\n'}
+[12.634031] (nav350_hardware) CommandEnded: {'returncode': 0}
+[12.662402] (-) TimerEvent: {}
+[12.697279] (nav350_hardware) JobProgress: {'identifier': 'nav350_hardware', 'progress': 'install'}
+[12.714641] (nav350_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware'], 'cwd': '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'studio3s'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1536'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/studio3s'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/src'), ('TERM_PROGRAM_VERSION', '1.68.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1357'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9850'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'studio3s'), ('JOURNAL_STREAM', '8:45493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'studio3s'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/studio3s/.local/bin:/opt/ros/galactic/bin:/home/studio3s/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/studio3s-500R5M-500R5W-501R5M:@/tmp/.ICE-unix/1575,unix/studio3s-500R5M-500R5W-501R5M:/tmp/.ICE-unix/1575'), ('INVOCATION_ID', 'c59dba84bdc04eb395ca8b572e08044e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-374716651d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware:/opt/ros/galactic')]), 'shell': False}
+[12.735456] (nav350_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.735957] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src\n'}
+[12.736205] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers\n'}
+[12.736540] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350\n'}
+[12.736722] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350\n'}
+[12.736834] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350/SickNAV350BufferMonitor.cc\n'}
+[12.736936] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350/SickNAV350.cc\n'}
+[12.737027] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/drivers/nav350/sicknav350/SickNAV350Message.cc\n'}
+[12.737182] (nav350_hardware) StdoutLine: {'line': b'-- Installing: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/src/nav350_Hardware.cpp\n'}
+[12.737299] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch\n'}
+[12.737419] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch/sicknav350.launch.xml\n'}
+[12.737513] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch/nav350.launch.xml\n'}
+[12.737601] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/launch/sicknav350.launch.py\n'}
+[12.737689] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers\n'}
+[12.737782] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350\n'}
+[12.737900] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350\n'}
+[12.738012] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350/SickNAV350BufferMonitor.cc\n'}
+[12.738100] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350/SickNAV350.cc\n'}
+[12.738216] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/drivers/nav350/sicknav350/SickNAV350Message.cc\n'}
+[12.738307] (nav350_hardware) StdoutLine: {'line': b'-- Installing: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/lib/nav350_hardware/nav350_Hardware\n'}
+[12.741638] (nav350_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/lib/nav350_hardware/nav350_Hardware" to ""\n'}
+[12.742703] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/ament_index/resource_index/package_run_dependencies/nav350_hardware\n'}
+[12.742987] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/ament_index/resource_index/parent_prefix_path/nav350_hardware\n'}
+[12.743184] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/ament_prefix_path.sh\n'}
+[12.743441] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/ament_prefix_path.dsv\n'}
+[12.743664] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/path.sh\n'}
+[12.744365] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/environment/path.dsv\n'}
+[12.744581] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.bash\n'}
+[12.744769] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.sh\n'}
+[12.744949] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.zsh\n'}
+[12.745225] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/local_setup.dsv\n'}
+[12.745804] (nav350_hardware) StdoutLine: {'line': b'-- Installing: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/package.dsv\n'}
+[12.746576] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/ament_index/resource_index/packages/nav350_hardware\n'}
+[12.747418] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.748663] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.748937] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/nav350_hardwareConfig.cmake\n'}
+[12.749165] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/cmake/nav350_hardwareConfig-version.cmake\n'}
+[12.749452] (nav350_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/studio3s/ROS2WS/Sick-Nav350-ros2/install/nav350_hardware/share/nav350_hardware/package.xml\n'}
+[12.749713] (nav350_hardware) CommandEnded: {'returncode': 0}
+[12.762490] (-) TimerEvent: {}
+[12.855274] (nav350_hardware) JobEnded: {'identifier': 'nav350_hardware', 'rc': 0}
+[12.856849] (-) EventReactorShutdown: {}

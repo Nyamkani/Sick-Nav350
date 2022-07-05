@@ -1,0 +1,8 @@
+[0.039s] Invoking command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4
+[0.189s] [ 66%] Built target nav350_hardware_lib
+[0.215s] [35m[1mScanning dependencies of target nav350_Hardware[0m
+[0.295s] [ 83%] [32mBuilding CXX object CMakeFiles/nav350_Hardware.dir/src/nav350_Hardware.cpp.o[0m
+[8.714s] make[2]: *** [CMakeFiles/nav350_Hardware.dir/build.make:63: CMakeFiles/nav350_Hardware.dir/src/nav350_Hardware.cpp.o] Interrupt
+[8.714s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/nav350_Hardware.dir/all] Interrupt
+[8.715s] make: *** [Makefile:141: all] Interrupt
+[8.773s] Invoked command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4

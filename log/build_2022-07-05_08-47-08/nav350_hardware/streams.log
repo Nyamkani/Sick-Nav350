@@ -1,0 +1,12 @@
+[0.038s] Invoking command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4
+[0.311s] [ 66%] Built target nav350_hardware_lib
+[0.340s] [35m[1mScanning dependencies of target nav350_Hardware[0m
+[0.422s] [ 83%] [32mBuilding CXX object CMakeFiles/nav350_Hardware.dir/src/nav350_Hardware.cpp.o[0m
+[9.846s] [100%] [32m[1mLinking CXX executable nav350_Hardware[0m
+[10.339s] /usr/bin/ld: CMakeFiles/nav350_Hardware.dir/src/nav350_Hardware.cpp.o: in function `main':
+[10.340s] nav350_Hardware.cpp:(.text+0x3754): undefined reference to `Nyamkani::sick_nav350::Initialization()'
+[10.340s] collect2: error: ld returned 1 exit status
+[10.342s] make[2]: *** [CMakeFiles/nav350_Hardware.dir/build.make:177: nav350_Hardware] Error 1
+[10.346s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/nav350_Hardware.dir/all] Error 2
+[10.346s] make: *** [Makefile:141: all] Error 2
+[10.350s] Invoked command in '/home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/studio3s/ROS2WS/Sick-Nav350-ros2/build/nav350_hardware -- -j4 -l4
