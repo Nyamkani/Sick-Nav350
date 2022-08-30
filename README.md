@@ -1,7 +1,9 @@
 # nav350
 This source is just for studying ros2 drivers
-
 Just migration from ros1 to ros2
+
+#notice
+This package is not stable. Please be aware of this
 
 Original is here: https://github.com/larics/sicktoolbox_wrapper
 
